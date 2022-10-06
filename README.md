@@ -2,22 +2,6 @@
 
 This is an example foundry project with Solhint and our custom Solhint rules set up.
 
-## Setup for new projects
-
-```
-npm init 
-npm install solhint https://github.com/smartcontractkit/chainlink-solhint-rules --save
-```
-
-Add the following to your `package.json`:
-
-```
-  "scripts": {
-    "solhint": "solhint --config .solhint.json --ignore-path .solhintignore --max-warnings 0 \"src/*.sol\""
-  },
-```
-
-Then, run:
 
 ```
 npm solhint
