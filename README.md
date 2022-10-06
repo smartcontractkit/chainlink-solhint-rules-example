@@ -1,6 +1,8 @@
 # Chainlink Solhint example for Foundry
 
-## Setup 
+This is an example foundry project with Solhint and our custom Solhint rules set up.
+
+## Setup for new projects
 
 ```
 npm init 
