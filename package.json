@@ -1,0 +1,15 @@
+{
+  "name": "chainlink-solhint-foundry-example",
+  "version": "1.0.0",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "solhint": "solhint --config .solhint.json --ignore-path .solhintignore --max-warnings 0 \"src/*.sol\""
+  },
+  "dependencies": {
+    "solhint": "^3.3.7",
+    "solhint-plugin-chainlink-solidity": "git+https://github.com/smartcontractkit/chainlink-solhint-rules.git"
+  }
+}
