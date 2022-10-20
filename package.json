@@ -9,6 +9,7 @@
     "solhint": "solhint --config .solhint.json --ignore-path .solhintignore --max-warnings 0 \"src/*.sol\""
   },
   "dependencies": {
-    "solhint": "^3.3.7"
+    "solhint": "^3.3.7",
+    "solhint-plugin-chainlink-solidity": "git+ssh://git@github.com/smartcontractkit/chainlink-solhint-rules.git"
   }
 }

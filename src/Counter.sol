@@ -10,19 +10,15 @@ contract CounterStorage {
 }
 
 contract Counter is CounterStorage(123) {
-    // solhint-disable-next-line
     uint256 private constant hello;
 
-    // solhint-disable-next-line
     uint256 private number;
 
     function setNumber(uint256 newNumber) public {
-        // solhint-disable-next-line
         require(newNumber != 0);
         number = newNumber;
     }
 
-    // solhint-disable-next-line
     function increment() internal {
         number++;
     }
