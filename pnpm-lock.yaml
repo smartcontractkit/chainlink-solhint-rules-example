@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   solhint: ^3.3.7
-  solhint-plugin-chainlink-solidity: git+ssh://git@github.com/smartcontractkit/chainlink-solhint-rules.git
+  solhint-plugin-chainlink-solidity: npm:@chainlink/solhint-plugin-chainlink-solidity@^1.0.0
 
 dependencies:
   solhint: 3.3.7
-  solhint-plugin-chainlink-solidity: github.com/smartcontractkit/chainlink-solhint-rules/0251e7870dc6a9c2e1defeca24949b08ad7686f3
+  solhint-plugin-chainlink-solidity: /@chainlink/solhint-plugin-chainlink-solidity/1.0.0
 
 packages:
 
@@ -29,6 +29,10 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       chalk: 2.4.2
       js-tokens: 4.0.0
+    dev: false
+
+  /@chainlink/solhint-plugin-chainlink-solidity/1.0.0:
+    resolution: {integrity: sha512-gi0Ygw0SI9uQR0904QWFWmlcg3BMvkQ3z78BffLPSOojTtcU7K7UGl8bs6YbiE3Q/JAhtMU+so+1UijM5ufK7A==}
     dev: false
 
   /@solidity-parser/parser/0.14.3:
@@ -883,10 +887,4 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       mkdirp: 0.5.6
-    dev: false
-
-  github.com/smartcontractkit/chainlink-solhint-rules/0251e7870dc6a9c2e1defeca24949b08ad7686f3:
-    resolution: {tarball: https://codeload.github.com/smartcontractkit/chainlink-solhint-rules/tar.gz/0251e7870dc6a9c2e1defeca24949b08ad7686f3}
-    name: solhint-plugin-chainlink-solidity
-    version: 1.0.0
     dev: false

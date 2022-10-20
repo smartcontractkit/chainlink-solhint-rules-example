@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "solhint": "^3.3.7",
-    "solhint-plugin-chainlink-solidity": "git+ssh://git@github.com/smartcontractkit/chainlink-solhint-rules.git"
+    "solhint-plugin-chainlink-solidity": "npm:@chainlink/solhint-plugin-chainlink-solidity@^1.0.0"
   }
 }
